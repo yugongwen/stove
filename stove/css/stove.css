@@ -1,0 +1,29 @@
+body,h1,h3,table,thead,tr,td,{
+	padding: 0;
+	margin: 0;
+}
+table {
+	border-collapse: collapse;
+	border:solid 1px #ebebeb;
+	color: #333333;
+	width: 80%;
+}
+thead th {
+	min-width: 20px;
+	background-color: #F4F9F8;
+}
+table td,th{
+	line-height: 35px;
+	padding-left: 10px;
+	border:solid 1px #ebebeb;
+}
+table td,th{
+	text-align: left;
+}
+thead tr th.column3 {
+	width: 160px;
+}
+td:nth-last-child(1) {
+	text-align: right;
+	padding-right: 10px;
+}
