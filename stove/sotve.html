@@ -9,8 +9,13 @@
 
   </head>
   <body>
-    <h3>stove</h3>
-    <table>
+    <navbar>
+      <ul>
+        <li class="current" id="lfd"><a>Liquid Fuel Stoves</a></li>
+        <li><a id="cs">Canister Stoves</a></li>
+      </ul>
+    </navbar>
+    <table class="table1">
       <thead>
         <tr>
          <th class="column1">分类</th>
@@ -23,7 +28,7 @@
         <tr>
           <td>油炉</td>
           <td>美国MSR耳语国际钢丝腿油炉</td>
-          <td>3</td>
+          <td>2</td>
         </tr>
         <tr>
           <td></td>
@@ -46,9 +51,14 @@
           <td>1</td>
         </tr>
         <tr>
+            <td></td>
+            <td>瑞典SVEA 123油炉</td>
+            <td>1</td>
+          </tr>
+        <tr>
           <td></td>
           <td>美国M1950美军炉</td>
-          <td>1</td>
+          <td>1在途</td>
         </tr>
         <tr>
           <td></td>
@@ -60,6 +70,11 @@
           <td>瑞典primus 多燃料油炉(multi fuel)</td>
           <td>1</td>
         </tr>
+        <tr>
+            <td></td>
+            <td>瑞典primus omniFuel炉子</td>
+            <td>1（途中）</td>
+          </tr>
         <tr>
           <td></td>
           <td>瑞典Primus 71 古典油炉</td>
@@ -85,6 +100,11 @@
           <td>日本SOTO 372 油气两用炉</td>
           <td>1</td>
         </tr>
+        <tr>
+            <td></td>
+            <td>法国flamme Bleue24号</td>
+            <td>1</td>
+        </tr>
       </tbody>
       <tfoot>
         <tr>
@@ -96,5 +116,44 @@
         
       </tbody>
     </table>
+    <table class="table2" style="display:none">
+      <thead>
+        <tr>
+          <th class="column1">分类</th>
+          <th class="column2">装备名称</th>
+          <th class="column3">数量</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td>SOTO 310气炉</td>
+          <td>1</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Primus 折叠气炉</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>MSR新款分体反应堆</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>岩谷卡什炉4400KW</td>
+            <td>1</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>气炉数量</td>
+          <td colspan="2">4个</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/stove.js"></script>
 </html>
